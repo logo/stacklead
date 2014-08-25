@@ -1,0 +1,21 @@
+
+/**
+ * StackLead logo.
+ */
+
+.logo[data-logo="StackLead"] {
+  width: 4.98054893243219em;
+}
+
+.logo[data-logo="StackLead"] > * {
+  background-image: url(images/logo.svg);
+  margin: .1em 0;
+}
+
+.logo[data-logo="StackLead"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="StackLead"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
